@@ -29,3 +29,4 @@ if result != -1:
     print("Phan tu o vi tri", result + 1)
 else:
     print("Khong tim thay")
+

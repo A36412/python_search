@@ -7,13 +7,13 @@ for i in range(0, n):
 
 def binary_search(so):
     low = 0
-    high = len(a)-1
+    high = len(a) - 1
     while high >= low:
         mid = low + (high - low) // 2
         if a[mid] == so:
             return mid
         elif a[mid] > so:
-            high = mid -1
+            high = mid - 1
         else:
             low = mid + 1
     return None

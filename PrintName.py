@@ -4,7 +4,7 @@ class Myprint:
 
     def string_to_print(self):
         # self.fistString = input()
-        print("chuoi ban vua nhap: "+ self.fistString)
+        print("chuoi ban vua nhap: " + self.fistString)
 
     def string_to_upper(self):
         print("chuoi ban vua nhap nhung viet hoa: " + self.fistString.upper())
