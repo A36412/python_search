@@ -25,3 +25,5 @@ def jump_search(a,target,lenght):
 result = jump_search(a,3,len(a))
 
 print (str(result))
+
+

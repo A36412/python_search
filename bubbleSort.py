@@ -2,7 +2,7 @@ n = int(input("Nhap so luong phan tu(bang so): "))
 
 a = []
 for i in range(0, n):
-    a.append(int(input("Nhap phan tu " + str(i+1)+ "(bang so): ")))
+    a.append(int(input("Nhap phan tu " + str(i + 1) + "(bang so): ")))
 
 
 def bubble():
@@ -21,3 +21,4 @@ def bubble():
 
 bubble()
 # print_array()
+
